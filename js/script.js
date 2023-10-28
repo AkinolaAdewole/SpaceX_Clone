@@ -3,11 +3,12 @@ const btn = document.getElementById('menu-btn');
 
 // Overlay for the mobile menu
 const overlay = document.getElementById('overlay'); 
-
 // The mobile menu itself
 const menu = document.getElementById('mobile-menu'); 
-const counters = document.querySelectorAll('.counter'); // Elements with class 'counter' that will be animated
-let scrollStarted = false; // Flag to track if scrolling has started
+ // Elements with class 'counter' that will be animated
+const counters = document.querySelectorAll('.counter');
+// Flag to track if scrolling has started
+let scrollStarted = false; 
 
 // Add a click event listener to the mobile menu button
 btn.addEventListener('click', navToggle);
